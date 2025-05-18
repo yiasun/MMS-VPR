@@ -3,7 +3,6 @@
 
 MMS-VPRlib is a multi-modal street-level dataset for visual place recognition tasks. It contains both image sequences and text sequences to facilitate robust visual place recognition research.
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## Quick Start
 
