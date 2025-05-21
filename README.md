@@ -22,8 +22,9 @@ MMS-VPRlib/
 ├── sample_data_texts.xlsx  # Text data in Excel format
 ├── requirements.txt        # Python dependencies
 ├── run_all.py              # Script to execute end-to-end pipeline
-├── model.ipynb             # Example notebook for model training and evaluation
-└── ...                     # Additional scripts and resources
+└── models/
+      ├── model.ipynb             # Example notebook for model training and evaluation
+      └──...                     # Additional scripts and resources
 ```
 
 ## Dataset Overview
@@ -45,6 +46,19 @@ Textual information is provided in a single Excel file (`sample_data_texts.xlsx`
 | Index                  | Numeric index                       |
 | List of Store Names    | Comma-separated list of store names |
 
+## Model Performance Highlights
+
+The top three performing models in our benchmarks are: 
+- **HeteroGNN + ResNet**
+- **ResNet-50** 
+- **ViT-B/16**  
+
+## Quick Parameter Tuning
+
+All configurable parameters live in `run_all.py`. You can override any default setting on the command line. For example, to train the logistic regression baseline for 20 epochs:
+
+```bash
+python run_all.py --model lr --num_epochs 20
 ## Usage
 
 ### Testing with Code
@@ -52,22 +66,27 @@ Textual information is provided in a single Excel file (`sample_data_texts.xlsx`
 To test the results using the provided code, organize your files as follows:
 
 ```
-Edge/
-├── model.ipynb
-├── ...
-├── sample_data_texts.xlsx
-├── Eh1-1/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-├── Eh1-2/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-└── Eh2-1/
-    ├── image1.jpg
-    ├── image2.jpg
-    └── ...
+MMS-VPRlib/
+├── README.md               
+├── sample_data_texts.xlsx  
+├── requirements.txt        
+├── run_all.py              
+├── models/
+│     ├── model.ipynb             
+│     └──...  
+└── Edge/
+    ├── Eh1-1/
+    │    ├── image1.jpg
+    │    ├── image2.jpg
+    │    └── ...
+    ├── Eh1-2/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    └── Eh2-1/
+        ├── image1.jpg
+        ├── image2.jpg
+        └── ...
 ```
 
 ### Running the Full Pipeline
