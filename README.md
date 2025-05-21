@@ -75,18 +75,18 @@ MMS-VPRlib/
 │     ├── model.ipynb             
 │     └──...  
 └── Edge/
-    ├── Eh1-1/
-    │    ├── image1.jpg
-    │    ├── image2.jpg
-    │    └── ...
-    ├── Eh1-2/
-    │   ├── image1.jpg
-    │   ├── image2.jpg
-    │   └── ...
-    └── Eh2-1/
-        ├── image1.jpg
-        ├── image2.jpg
-        └── ...
+     ├── Eh1-1/
+     │    ├── image1.jpg
+     │    ├── image2.jpg
+     │    └── ...
+     ├── Eh1-2/
+     │   ├── image1.jpg
+     │   ├── image2.jpg
+     │   └── ...
+     └── Eh2-1/
+         ├── image1.jpg
+         ├── image2.jpg
+         └── ...
 ```
 
 ### Running the Full Pipeline
