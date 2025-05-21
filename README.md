@@ -90,6 +90,8 @@ To test the results using the provided code, organize your files as follows:
             └── …
 
 ```
+The initial folder of the image dataset set in our model is ../raw. The above is a demonstration.
+
 ### Running the Full Pipeline
 
 If you want to execute all scripts at once, install the following additional dependencies:
