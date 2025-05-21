@@ -66,27 +66,29 @@ python run_all.py --model lr --num_epochs 20
 To test the results using the provided code, organize your files as follows:
 
 ```
-MMS-VPRlib/
-├── README.md               
-├── sample_data_texts.xlsx  
-├── requirements.txt        
-├── run_all.py              
-├── models/
-│     ├── model.ipynb             
-│     └──...  
-└── Edge/
-     ├── Eh1-1/
-     │    ├── image1.jpg
-     │    ├── image2.jpg
-     │    └── ...
-     ├── Eh1-2/
-     │   ├── image1.jpg
-     │   ├── image2.jpg
-     │   └── ...
-     └── Eh2-1/
-         ├── image1.jpg
-         ├── image2.jpg
-         └── ...
+
+    MMS-VPRlib/
+    ├── README.md
+    ├── sample_data_texts.xlsx
+    ├── requirements.txt
+    ├── run_all.py
+    ├── models/
+    │   ├── model.ipynb
+    │   └── …
+    └── Edge/
+        ├── Eh1-1/
+        │   ├── image1.jpg
+        │   ├── image2.jpg
+        │   └── …
+        ├── Eh1-2/
+        │   ├── image1.jpg
+        │   ├── image2.jpg
+        │   └── …
+        └── Eh2-1/
+            ├── image1.jpg
+            ├── image2.jpg
+            └── …
+
 ```
 
 ### Running the Full Pipeline
