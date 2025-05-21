@@ -60,7 +60,7 @@ All configurable parameters live in `run_all.py`. You can override any default s
 ```bash
 python run_all.py --model lr --num_epochs 20
 ## Usage
-
+```
 ### Testing with Code
 
 To test the results using the provided code, organize your files as follows:
@@ -89,7 +89,6 @@ To test the results using the provided code, organize your files as follows:
             ├── image2.jpg
             └── …
 
-```
 
 ### Running the Full Pipeline
 
