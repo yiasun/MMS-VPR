@@ -89,7 +89,7 @@ To test the results using the provided code, organize your files as follows:
             ├── image2.jpg
             └── …
 
-
+```
 ### Running the Full Pipeline
 
 If you want to execute all scripts at once, install the following additional dependencies:
